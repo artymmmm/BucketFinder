@@ -5,7 +5,7 @@ namespace BucketFinder
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Основа для URI бакетов
             string baseUri = "https://storage.yandexcloud.net/";

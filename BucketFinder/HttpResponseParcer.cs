@@ -78,17 +78,6 @@ namespace BucketFinder
             return CreateUriLoop(newUris, maxNameLength, baseUriLength);
         }
         
-        //Поиск по файлам в объектном хранилище
-        /*
-        public static void createFileUri (string bucketUri,string fileFormat, char c)
-        {
-            string[] fileFormats = {"docx", "doc", "xlsx", "xls", "txt", "json", "xml" };
-
-            StringBuilder sb = new StringBuilder(bucketUri);
-            sb.AppendFormat("/{0}.{1}", c, fileFormat);
-        }
-        */
-
         //Получение HTTP ответа
         //Параметры: список URI, от которых необходимо получить ответ
         //Возвращает список бакетов
